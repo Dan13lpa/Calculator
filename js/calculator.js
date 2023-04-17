@@ -80,7 +80,8 @@ export let renderCalculator = () => {
                 if (currentOperation.value === "0" && value === ".") {
                     currentOperation.value = "0.";
                 } else if (currentOperation.value.indexOf(".") >= 0 && value === ".") {
-                    // Do nothing
+                    
+                    
                 } else {
                     currentOperation.value += value;
                 }
