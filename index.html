@@ -3,49 +3,51 @@
 <head>
     <title>Calculator</title>
     <link href="styles/index.css" rel="stylesheet">
+    <script type="module" src="js/app.js"></script>
+</head>
 <body>
     <div class="calculator">
         <div class="display-old">
             <input type="text" id="last-operation">
         </div>
         <div class="display">
-            <input type="text" id="result" placeholder="0">
+            <input type="text" id="current-operation" value="0">
         </div>
         <div class="button-row">
-            <button value="%">%</button>
-            <button value="CE">CE</button>
-            <button value="C">C</button>
-            <button value="del">del</button>
+            <button class="calculator-button" value="%">%</button>
+            <button class="calculator-button" value="CE">CE</button>
+            <button class="calculator-button" value="C">C</button>
+            <button class="calculator-button" value="del">del</button>
         </div>
         <div class="button-row">
-            <button value="1/x">1/x</button>
-            <button value="x²">x²</button>
-            <button value="√x">√x</button>
-            <button value="÷">÷</button>
+            <button class="calculator-button" value="1/x">1/x</button>
+            <button class="calculator-button" value="x²">x²</button>
+            <button class="calculator-button" value="√x">√x</button>
+            <button class="calculator-button" value="/">÷</button>
         </div>
         <div class="button-row">
-            <button value="7">7</button>
-            <button value="8">8</button>
-            <button value="9">9</button>
-            <button value="x">x</button>
+            <button class="calculator-button" value="7">7</button>
+            <button class="calculator-button" value="8">8</button>
+            <button class="calculator-button" value="9">9</button>
+            <button class="calculator-button" value="*">x</button>
         </div>
         <div class="button-row">
-            <button value="4">4</button>
-            <button value="5">5</button>
-            <button value="6">6</button>
-            <button value="-">-</button>
+            <button class="calculator-button" value="4">4</button>
+            <button class="calculator-button" value="5">5</button>
+            <button class="calculator-button" value="6">6</button>
+            <button class="calculator-button" value="-">-</button>
         </div>
         <div class="button-row">
-            <button value="1">1</button>
-            <button value="2">2</button>
-            <button value="3">3</button>
-            <button value="+">+</button>
+            <button class="calculator-button" value="1">1</button>
+            <button class="calculator-button" value="2">2</button>
+            <button class="calculator-button" value="3">3</button>
+            <button class="calculator-button" value="+">+</button>
         </div>
         <div class="button-row">
-            <button value="+/-">+/-</button>
-            <button value="0">0</button>
-            <button value=",">,</button>
-            <button value="=">=</button>
+            <button class="calculator-button" value="+/-">+/-</button>
+            <button class="calculator-button" value="0">0</button>
+            <button class="calculator-button" value=".">.</button>
+            <button class="calculator-button" value="=">=</button>
         </div>
     </div>
 </body>
