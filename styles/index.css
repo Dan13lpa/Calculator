@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    width: 15%;
+    background-color: hsl(0, 0%, 86%);
+    
+}
+.display-old{
+    margin-top: 10%;
+    width: 90%;
+    height: 15%;
+}
+
+.display{
+    width: 90%;
+    height: 15%;
+}
+input{
+    width: 100%;
+    text-align: end;
+    border: none;
+}
+.button-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 10%;
+}
+button{
+    width: 24%;
+}
